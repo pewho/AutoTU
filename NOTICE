@@ -1,4 +1,4 @@
-This package use a looselly inspirated version of this code recipe from developer.force.com, by LukeJFreeland :
+This package use a loosely based version of this code recipe from developer.force.com, by LukeJFreeland :
 (http://developer.force.com/cookbook/recipe/automated-unit-test-execution)
 
 and a modified version of Apex Tooling API wrapper, REST version, from Andrew Fawcett & James Loghry
