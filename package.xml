@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutoTU</fullName>
+    <description>Launch Test Unit from a schedulable class, and send Email Report</description>
+    <types>
+        <members>AutomatedTestJobQueuer</members>
+        <members>AutomatedTestingCoverageAggregator</members>
+        <members>AutomatedTestingJob</members>
+        <members>AutomatedTestingJobQueuer_TEST</members>
+        <members>AutomatedTestingJob_TEST</members>
+        <members>AutomatedTestingLogger</members>
+        <members>AutomatedTestingTestUtils</members>
+        <members>ToolingAPI</members>
+        <members>ToolingAPITest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AutoTUDest__c.destinataire__c</members>
+        <members>AutoTUParams__c.Cron_Queuer_Job__c</members>
+        <members>AutoTUParams__c.Cron_Sender_Job__c</members>
+        <members>AutoTUParams__c.Login_Url__c</members>
+        <members>AutoTUParams__c.OAuth_Client_ID__c</members>
+        <members>AutoTUParams__c.OAuth_Client_Secret__c</members>
+        <members>AutoTUParams__c.password__c</members>
+        <members>AutoTUParams__c.username__c</members>
+        <members>AutomatedTestingQueue__c.AsyncId__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>AutoTUDest__c</members>
+        <members>AutoTUParams__c</members>
+        <members>AutomatedTestingQueue__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>AutomatedTestingQueue__c-Automated Testing Queue Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>OauthInternal</members>
+        <members>ToollingAPI</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <version>32.0</version>
+</Package>
